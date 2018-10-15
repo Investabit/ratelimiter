@@ -1,4 +1,4 @@
-package main
+package ratelimit
 
 import (
 	"sync"
@@ -97,4 +97,3 @@ type Context interface {
 	Done() <-chan struct{}
 	Err() error
 }
-
